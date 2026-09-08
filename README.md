@@ -79,8 +79,8 @@ When submitting `k3k` to official `homebrew-core`, source compilation is require
 class K3k < Formula
   desc "Run isolated k3s clusters within a host Kubernetes cluster"
   homepage "https://github.com/rancher/k3k"
-  url "https://github.com/rancher/k3k/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "8ef1ea06300e18fe48a217b12144f28f1a168c3d356261fc3d75a53d8087bb7d"
+  url "https://github.com/rancher/k3k/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "bfdf378ac10096c77ff5a5ccf23585b1767cf6b1ebe0f187191247a74f4b8d3a"
   license "Apache-2.0"
   head "https://github.com/rancher/k3k.git", branch: "main"
 
@@ -117,7 +117,7 @@ end
    brew test k3k
    ```
 4. Commit and open a PR.
-   - **PR Title Format**: `k3k 1.1.0 (new formula)`
+   - **PR Title Format**: `k3k 1.2.0 (new formula)`
    - Note in PR description that the upstream binary name is `k3kcli`.
 
 ### 3. Post-Merge Maintenance & Autobumps
